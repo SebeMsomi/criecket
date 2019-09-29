@@ -12,8 +12,5 @@ public class CricketApplication {
         SpringApplication.run(CricketApplication.class, args);
     }
 
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
+
 }
